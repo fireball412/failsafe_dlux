@@ -18,11 +18,13 @@ You should have received a copy of the GNU General Public License along with thi
 
 V.0.9: 
 - first try
+
 V.1.0: 
 - first stable version
 - improved software structure
 - blink code for errors
 - solution for delay control that was challenged by interrupt 
+
 V.1.0.1:
 - adapted for nano_RC_hold_V1.0 PCBs (pin number for input and output); no change needed for nano_RC_hold_V1.1 PCBs
 
