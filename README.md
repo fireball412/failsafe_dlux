@@ -9,12 +9,8 @@ Failsafe is also triggered if the last proper PPM signal is older than the prede
 red LED: indicates if output signal is below or equal failsafe position (either due to corresponding input signal or activated failsafe)
 Blink code: 1 blink = PPM signal loss occurred at least once, 2 blínks = supply voltage was below limit at least once
 
-Copyright (C) 2016  Stefan Leidich
-contact: fireball@t-online.de
 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-You should have received a copy of the GNU General Public License along with this program; if not, see <http://www.gnu.org/licenses/>. 
+old version history
 
 V.0.9: 
 - first try
@@ -32,3 +28,7 @@ V.1.0.2:
 - using map function to scale ADC voltage to input voltage
 - implementation 10k/68k voltage divider for 8.4V input voltage
 - implementation of pistole grip stick conversion (pistol grip transmitter rest in neutral position, many ESC require -100% signal to stop)
+
+2020/12/18 moved to github
+
+
