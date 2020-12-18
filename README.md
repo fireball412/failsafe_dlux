@@ -9,6 +9,8 @@ Failsafe is also triggered if the last proper PPM signal is older than the prede
 red LED: indicates if output signal is below or equal failsafe position (either due to corresponding input signal or activated failsafe)
 Blink code: 1 blink = PPM signal loss occurred at least once, 2 blínks = supply voltage was below limit at least once
 
+demonstration:
+https://www.youtube.com/watch?v=K2Zalw2rsIU
 
 old version history
 
