@@ -26,7 +26,7 @@ const int voltagelimitdelay=5; //failsafe is activated if voltage measurement is
 const int ppmlossdelay=5; //failsafe is activated if ppm signal is not detected for more than 5 loops (~5*10ms=50ms delay)
 const int maindelay=10; //delay of main loop in ms
 const int rxreadydelay=1000; // wait for RX to get ready in ms
-const int blinkinterval=50; // LED on time during blink as multiply of maindelay
+const int blinkinterval=55; // LED on time during blink as multiply of maindelay
 const int blinkpause=200; // pause between blink series as multiply of maindelay
 const int servo1min=1000; //limit of outputsignal
 const int servo1max=2000; //limit of outputsignal
